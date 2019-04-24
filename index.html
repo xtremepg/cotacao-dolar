@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>D&oacute;lar Agora</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+            <h1 class="text-center mt-5 mb-5">Cotação do D&oacute;lar</h1>
+            <div class="form-group">
+                <input type="text" name="dataDaCotacao" id="dataDaCotacao" class="form-control datepicker" />
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-header">Valor de Compra</div>
+                        <div class="card-body">R$ <span id="valor-dolar-compra"></span></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-header">Valor de Venda</div>
+                        <div class="card-body">R$ <span id="valor-dolar-venda"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mask -->
+    <script src="vendor/jquery.mask//jquery.mask.min.js"></script>
+
+    <!-- Datepicker -->
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+    <!-- Cotação do Dólar -->
+    <script src="index.js"></script>
+</body>
+
+</html>
